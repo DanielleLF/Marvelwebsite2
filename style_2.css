@@ -1,0 +1,175 @@
+body {
+	  background-color:white;
+	  color:black;
+	 }
+
+.link {
+ color:red;
+ text-decoration: none; 
+}
+
+.content { 
+  padding:10px; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ }
+
+
+.img1 img { 
+height:600px;
+width:450px;
+margin:20px;
+transition: transform .3s; /* Animation */
+}
+
+.img1:hover {
+transform: scale(1.25);
+margin:60px;
+padding:30px;
+}
+
+.img2 img {
+height:600px;
+width:450px;
+margin:20px;
+transition: transform .3s; /* Animation */
+}
+
+.img2:hover {
+ transform: scale(1.25);
+ margin:60px;
+padding:30px;
+}
+
+.img3 img {
+height:600px;
+width:450px;
+margin:20px;
+transition: transform .3s; /* Animation */
+}
+
+.img3:hover {
+  transform: scale(1.25);
+ margin:60px;
+padding:30px;
+}
+
+.img4 img { 
+height:600px;
+width:450px;
+margin:20px;
+transition: transform .3s; /* Animation */
+ }
+
+ .img4:hover {
+  transform: scale(1.25);
+ margin:60px;
+padding:30px;
+}
+
+.img5 img { 
+height:600px;
+max-width: 90%;
+margin:60px;
+transition: transform .3s; /* Animation */
+}
+
+.img5:hover {
+transform: scale(1.25);
+margin:60px;
+padding:50px;
+}
+
+img {width:100%;}
+
+h1 {
+margin:20px;
+font-size:70px;
+text-align:center;
+font-family:"Benton Sans", San-Serif;
+font-style: Normal;
+font-weight: Bold;
+}
+
+h1:hover { 
+/* mouse over link */
+color:black;
+text-shadow:3px 5px red;
+text-decoration: underline;
+}
+
+h2 { 
+margin:20px;
+margin-top:20px;
+font-size:30px;
+text-align:center;
+font-family:"Benton Sans", San-Serif;
+font-style: normal;
+font-weight: normal;
+}
+
+h3{
+text-align:center;
+font-size:25px;
+letter-spacing: 2px;
+padding:50px;
+width:50%;
+margin: 0 auto;
+font-style: normal;
+font-weight: normal;
+transition: transform .3s; /* Animation */
+}
+
+h3:hover {
+ transform: scale(1.25);
+}
+
+ p {
+ width:60%;
+ size:14px;
+ margin: 0 auto;
+ letter-spacing: 1.5px;
+ line-height:24px;
+ text-align:center;
+ font-family:"Benton Sans", San-Serif;
+ font-style: normal;
+ padding:20px;
+ }
+
+.box {
+background-color: black;
+width:80%;
+margin: 0 auto;
+
+}
+
+ h4{
+text-decoration: underline;
+text-align:center;
+font-size:30px;;
+color:white;
+padding:50px;
+width:70%;
+margin: 0 auto;
+font-style: bold;
+font-weight: bold;
+/*transition: transform .3s; /* Animation */*/
+}
+
+
+h5 {
+text-align:center;
+font-size:25px;
+color:white;
+letter-spacing: 2px;
+padding:10px;
+width:70%;
+margin: 0 auto;
+font-style: lighter;
+font-weight: lighter;
+}
+h5:hover {
+ transform: scale(1.25);
+}
+
